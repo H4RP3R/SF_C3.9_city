@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url('IMG/city.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#input-wrapper {
+    display: none;
+}
+
+#city-message-wrapper {
+    width: 500px;
+    padding: 20px 4px 20px 4px;
+    background-color: rgba(0, 0, 0, .7);
+    display: none;
+}
+
+.center {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #D95204;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #F2811D;
+}
+
+span {
+    color: #F2B705;
+    text-transform: capitalize;
+}
+
+input[type=text] {
+    text-align: center;
+    width: 500px;
+    height: 66px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    background-color: rgba(250, 250, 250, .9);
+    color: rgba(0, 0, 0, .9);
+    border: none;
+    padding: 0 10px 0 10px;
+}
+
+input[type=text]:focus {
+    outline: 1px solid black;
+}
